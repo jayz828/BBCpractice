@@ -32,23 +32,20 @@
         background-color: #B404AE;
         width: 200px;
         height: 200px;
-        float:left;
+        position: fixed;
+        z-index: 1;
     }
 
     .greenbox {
+       
         background-color: #295715;
         width: 300px;
-        height: 100px;
-        float: right;
+        height: 500px;
+        z-index: 2;
+      
     }
 
-    .floatleft {
-        float: left;
-    }
 
-    .clear {
-        clear:both;
-    }
 
 
 </style>
@@ -65,6 +62,16 @@
     </div> 
 
    <div class="greenbox">
+        <p id="green" class="large">This is some more text</p>
+
+   </div>
+
+      <div class="greenbox">
+        <p id="green" class="large">This is some more text</p>
+
+   </div>
+
+      <div class="greenbox">
         <p id="green" class="large">This is some more text</p>
 
    </div>
